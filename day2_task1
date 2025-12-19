@@ -1,0 +1,10 @@
+// day2 task1
+const user = {
+    name: "Yazu",
+    login: function() {
+        console.log("User is: " + this.name);
+    }
+};
+
+user.login();
+
