@@ -4,9 +4,9 @@ function fetchUsers() {
       const success = Math.random() > 0.5; 
       if (success) {
         resolve([
-          { name: "Arjun", age: 20 },
-          { name: "Priya", age: 22 },
-          { name: "Rohan", age: 25 }
+          { name: "Lewis", age: 20 },
+          { name: "Max", age: 22 },
+          { name: "Marc", age: 25 }
         ]);
       } else {
         reject("Failed to fetch users. Please try again.");
@@ -23,5 +23,6 @@ async function getUsers() {
     console.log("Error:", error);
   }
 }
+
 
 getUsers();
