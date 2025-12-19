@@ -20,7 +20,7 @@ console.log(sum);
 const student={
   name: "Yazu",
   semester: "3rd",
-  roll_no: 14,
+  roll_no: 34,
   age: 20,
 }
 console.log(`Student name : ${student.name}`)
@@ -34,3 +34,4 @@ console.log(`Student Age : ${student.age}`)
 const fruits=["apple","Banana","Cherry","papaya","orange"]
 const[a,b,c,d,e]=fruits;
 console.log(a,b)
+
